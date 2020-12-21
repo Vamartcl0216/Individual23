@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title></title>
+  <link rel="stylesheet" href="jquery-ui.css">
+  <link rel="stylesheet" href="style.css">
+  <style>
+  #resizable { width: 350px; height: 50px; padding: 0.5em; }
+  #resizable h3 { text-align: center; margin: 0; }
+  </style>
+  <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+  <script src="sayans2.js">
+  
+  </script>
+</head>
+<body>
+ 
+<center><div id="resizable" class="ui-widget-content">
+  <h3 class="ui-widget-header">catalogo</h3>
+</div></center><br><br>
+<center><button id="boton">Stock</button></center><br><br>
+<div id="dialog" title="nuestro stock">
+    <p><ul>
+        <li>panaderia: 100 u</li>
+        <li>Verduleria: 50 u</li>
+        <li>lacteos: 30 u</li>
+    </ul></p>
+  </div>
+
+
+<div style="text-align: center;" id="accordion">
+    <h3 >Panaderia</h3>
+    <div>
+      <p style="color: black; text-align: center;">
+      Los panes mas ricos del sector recien salidos del horno, solo se pueden encontrar en nuestra panaderia<br>
+      <img style="height: 200px;" src="empanadas.jpg"> 
+      </p>
+    </div>
+    <h3 style="text-align: center;">Lacteos</h3>
+    <div>
+      <p style="color: black; text-align: center;">
+     Diversa variedad de lacteos, podra encontrar en nuestro local, desde los mas ricos yogurts, hasta la mas alta variedad en quesos<br>
+     <img style="height: 200px;" src="leche.jpg"> 
+      </p>
+    </div>
+    <h3 style="text-align: center;">Verduleria</h3>
+    <div>
+      
+        <p style="color: black; text-align: center;">
+            Las verduras mas frescas, para acompañar sus platos favoritos<br>
+            <img style="height: 200px;" src="ensalada.jpg"> 
+             </p>
+    </div>
+    
+  </div>
+
+ 
+</body>
+</html>
