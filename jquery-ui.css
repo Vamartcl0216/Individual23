@@ -4,6 +4,18 @@
 * Copyright 2012 jQuery Foundation and other contributors; Licensed MIT */
 
 /* Layout helpers
+
+  /*
+  Fecha de modificación: 21/12/2020
+Autores: Gonzalo Godoy 
+Vanessa Amaro
+Versión: 1.0
+Objetivo de la página: Dar estilo a la página
+  
+  
+  
+  
+  */
 ----------------------------------*/
 .ui-helper-hidden { display: none; }
 .ui-helper-hidden-accessible { border: 0; clip: rect(0 0 0 0); height: 1px; margin: -1px; overflow: hidden; padding: 0; position: absolute; width: 1px; }

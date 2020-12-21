@@ -6,6 +6,17 @@
  * Copyright (c) 2020 Jörn Zaefferer
  * Released under the MIT license
  */
+  /*
+  Fecha de modificación: 21/12/2020
+Autores: Gonzalo Godoy 
+Vanessa Amaro
+Versión: 1.0
+Objetivo de la página: Dar funcionalidad a la página
+  
+  
+  */
+
+
 (function( factory ) {
 	if ( typeof define === "function" && define.amd ) {
 		define( ["jquery"], factory );
